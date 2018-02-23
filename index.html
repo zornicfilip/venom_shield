@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Venom Shield</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</head>
+<body>
+
+
+<!--Navbar-->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-2 menu">
+		<img class="logo" src="img/logo.png">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-6 notifications">
+					<img src="img/bell.svg">
+					<p>Notifications</p>
+				</div>
+				<div class="col-md-6 notifications">
+					<img src="img/alert.svg">
+					<p>Alerts</p>
+				</div>
+			</div>
+		</div>
+			<ul class="nav">
+				<a href="index.html"><li><i class="fas fa-home"></i> Homepage</li></a>
+				<a href="scan.html"><li><i class="fas fa-search"></i> Scan</li></a>
+				<a href="#"><li><i class="fas fa-wrench"></i> Tools</li></a>
+				<a href="#"><li><i class="fas fa-plus-square"></i> Plugins</li></a>				
+				<a href="#"><li><i class="far fa-chart-bar"></i> Statistic</li></a>				
+				<a href="settings.html"><li><i class="fas fa-cog"></i> Settings</li></a>				
+			</ul>
+			<p class="bottom">Venom Shield &copy; 2018</p>
+		</div>
+<!--End of navbar-->
+
+<!--Homepage-->
+
+
+		<div class="col-md-10 dashboard">
+			<p style="float: left;">Dashboard</p>
+			<div class="clearfix">				
+			<p id="date"style="float: right;"></p>
+			</div>
+			<div class="row">
+
+				<div class="col-md-12 dashboard-section text-center">					
+					<img src="img/check.svg">
+					<h1>Your system is fully <br> protected!</h1>
+					<p>Everything is up to date.</p>
+					<div class="col-md-12 underline"></div>
+					<a href="scan.html"><button class="btn btn-primary btn-start">START SCAN</button></a>
+				</div>
+
+			</div>
+
+			<div class="col-md-12 dashboard-scan">
+				<div class="row">					
+				
+					<div class="col-md-3 text-center main-scan">
+						<div class="scan-options">
+							<img src="img/smartscan.svg">
+							<p>SMART SCAN</p>
+						</div>						
+					</div>
+					<div class="col-md-3 text-center main-scan">
+						<div class="scan-options">				
+							<img src="img/clean.svg">
+							<p>CLEANUP</p>
+						</div>
+					</div>
+					<div class="col-md-3 text-center main-scan">
+						<div class="scan-options">				
+							<img src="img/security.svg">
+							<p>SECURITY</p>
+						</div>
+					</div>
+					<div class="col-md-3 text-center main-scan">
+						<div class="scan-options" style="margin-right: 0px;">				
+							<img src="img/server.svg">
+							<p>DATABASE SCAN</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-md-6 pre_computers_container_1">
+						<div class="computers">
+							<img src="img/computer.svg">
+							<h4>14 computers found on <br> your network.</h4>
+						</div>
+					</div>
+					<div class="col-md-6 pre_computers_container_2">		
+						<div class="computers">				
+							<img src="img/shield_green.svg">
+							<h4>14 computers safe.</h4>
+							<a href="#" class="small"><p >Click to see details.</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--End of homepage-->
+
+<script type="text/javascript">
+	
+	n =  new Date();
+	y = n.getFullYear();
+	m = n.getMonth() + 1;
+	d = n.getDate();
+	document.getElementById("date").innerHTML = m + "." + d + "." + y;
+
+</script>
+</body>
+</html>

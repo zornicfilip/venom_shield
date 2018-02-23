@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Venom Shield</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</head>
+<body>
+
+
+<!--Navbar-->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-2 menu">
+		<img class="logo" src="img/logo.png">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-6 notifications">
+					<img src="img/bell.svg">
+					<p>Notifications</p>
+				</div>
+				<div class="col-md-6 notifications">
+					<img src="img/alert.svg">
+					<p>Alerts</p>
+				</div>
+			</div>
+		</div>
+			<ul class="nav">
+				<a href="index.html"><li><i class="fas fa-home"></i> Homepage</li></a>
+				<a href="scan.html"><li><i class="fas fa-search"></i> Scan</li></a>
+				<a href="#"><li><i class="fas fa-wrench"></i> Tools</li></a>
+				<a href="#"><li><i class="fas fa-plus-square"></i> Plugins</li></a>				
+				<a href="#"><li><i class="far fa-chart-bar"></i> Statistic</li></a>				
+				<a href="settings.html"><li><i class="fas fa-cog"></i> Settings</li></a>				
+			</ul>
+			<p class="bottom">Venom Shield &copy; 2018</p>
+		</div>
+<!--End of navbar-->
+
+<!--Homepage-->
+
+
+		<div class="col-md-10 dashboard">
+			<p style="float: left;">Scan results</p>
+			<div class="clearfix">				
+				<p id="date"style="float: right;"></p>
+			</div>
+			<div class="row">
+				<div class="col-md-8 completed">
+					<img src="img/check.svg">
+					<h1>Scan completed!</h1>
+				</div>
+				<div class="col-md-4 scan-again">
+					<div class="scan-again-container">						
+						<img src="img/scan-white.svg">
+						<p>SCAN AGAIN</p
+					</div>
+				</div>
+				
+			</div>
+			<div class="row" style="width: 100%">
+				<div class="col-md-12" style="padding-right:0;">
+					<div class="list-container">
+						<table class="table">
+						<tbody>
+						    <tr>
+						      <th scope="row"><img src="img/check.svg"></th>
+						      <td>We didn’t find any viruses or malware.</td>
+						    </tr>
+						    <tr>
+						      <th scope="row"><img src="img/check.svg"></th>
+						      <td>Your software is up-to date.</td>
+						    </tr>
+						    <tr>
+						      <th scope="row"><img src="img/check.svg"></th>
+						      <td>We didn’t find any problems on your network.</td>
+						    </tr>
+						    <tr>
+						      <th scope="row"><img src="img/check.svg"></th>
+						      <td>Your local network is secure.</td>
+						    </tr>
+						  </tbody>
+						</table>
+					</div>
+					<div class="row"><div class="col-md-12"><p>Previous scans</p></div></div>
+					
+					<div class="row">						
+							<div class="col-md-3">
+								<div class="recent-scans">				
+									<img src="img/check.svg">
+									<p class="text-center">11.09.2017</p>								
+									<p class="text-center">System secure</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="recent-scans">				
+									<img src="img/check.svg">
+									<p class="text-center">11.23.2017</p>								
+									<p class="text-center">System secure</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="recent-scans">				
+									<img src="img/risk.svg">
+									<p class="text-center">12.19.2017</p>								
+									<p class="text-center">System at risk</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="recent-scans">				
+									<img src="img/check.svg">
+									<p class="text-center">01.04.2018</p>								
+									<p class="text-center">System secure</p>
+								</div>							
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+<!--End of homepage-->
+
+<script type="text/javascript">
+	
+	n =  new Date();
+	y = n.getFullYear();
+	m = n.getMonth() + 1;
+	d = n.getDate();
+	document.getElementById("date").innerHTML = m + "." + d + "." + y;
+
+</script>
+</body>
+</html>

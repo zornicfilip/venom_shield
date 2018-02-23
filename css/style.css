@@ -1,0 +1,319 @@
+/*General*/
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #efefef !important;
+}
+/*Navbar*/
+.notifications {
+	float: left;
+}
+.notifications img{
+	display: block;
+	margin: 0 auto;
+	height: 25px;
+}
+.notifications p{
+	color: #fff;
+	text-align: center;
+	font-size: 0.8em;
+	font-weight: 100;
+}
+.menu{
+	height: 100vh;
+    position: fixed !important;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #666;
+    padding: 20px 0px !important;
+    margin: 0px;
+}
+.logo{
+	display: block;
+	margin: 10px auto 40px auto;
+	width: 50%;
+}
+.nav{
+	display: block;
+	color: #ccc;
+}
+.nav li{
+	padding-left: 20px !important;
+	width: 100%;
+	padding: 10px;
+	font-size: 1.3em;
+}
+.nav a{
+	width: 100%;
+	text-decoration: none;
+	color: #ccc !important;	
+	transition: all 0.2s ease;
+}
+.nav a:hover{
+	text-decoration: none;
+	background-color: #999;
+	color: #fff !important;
+	transition: all 0.2s ease;
+}
+.bottom{
+	color: #fff;
+	position: absolute;
+	left: 20px;
+	bottom: 0;
+}
+/*End of navbar*/
+
+
+
+/*Homepage*/
+.dashboard{		
+	font-family: 'Roboto', sans-serif;
+	padding: 15px 100px !important;
+	margin-left: 16% !important;
+}
+.dashboard p{
+	font-size: 1.3em;
+	font-weight: 400;
+}
+.dashboard-section{
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.dashboard-section img{
+	padding-bottom: 20px;
+	width: 15%;
+	display: block;
+	margin: 0 auto;
+}
+.dashboard-section p{
+	font-size: 0.9em;
+	padding-top: 5px;
+}
+.underline {
+	width: 200px;
+	border-bottom: 1px solid #000;
+	margin-bottom: 20px;
+}
+.btn-start{
+	border-radius: 10px !important;
+	font-size: 1.3em !important;
+	background-color: #0079c1 !important;
+	padding: 10px 30px !important;
+}
+.btn-start:hover{
+	background-color: #046fa5 !important;
+}
+.pre_computers_container_1, .pre_computers_container_2{
+	margin-top: 20px;
+	margin-left: 0px !important;
+	padding: 0px !important;
+}
+.pre_computers_container_1{
+	padding-right: 20px !important;
+}
+.computers {
+	margin: 0 !important;
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.computers img {
+	margin: 50px;
+	height: 70px;
+	float: left;
+}
+.computers h4{
+	padding-top: 65px;
+	margin-bottom: 0px !important;
+	line-height: 25px;
+}
+.small{
+	font-size: 0.7em;
+	font-weight: 100;
+	line-height: 15px !important;
+	color: #000;
+}
+.small:hover{
+	color: #40863e;
+	text-decoration: none;
+}
+/*Scan page*/
+.dashboard-scan{
+	padding: 0px !important;
+}
+.main-scan{
+	padding: 0px !important;
+}
+.scan-options{
+	position: relative;
+	top: 0;
+	padding-bottom: 5px;
+	background-color: #fff;
+	margin-top: 20px;
+	margin-right: 20px;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+}
+.scan-options:hover{
+	-webkit-box-shadow: 0px 10px 35px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 35px -15px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 35px -15px rgba(0,0,0,0.75);
+	top: -10px;
+	transition: all 0.3s ease;
+}
+.scan-options p{
+	font-weight: 400;
+}
+.scan-options:nth-child(4n){
+	margin-right: 0px !important;
+}
+.scan-options img{
+	width: 158px;
+	height: 158px;
+	padding: 20px;
+}
+.completed{
+	padding:40px !important;
+	border-radius: 10px;
+	background-color: #fff;
+}
+.completed img{
+	width: 100px;
+	float: left;
+}
+.completed h1{
+	padding-left: 25px;
+	padding-top: 25px;
+	float: left;
+}
+.scan-again-container{
+	margin-left: 10px;
+	background-color: #0079c1;
+	border-radius: 10px;
+	height: 100%;
+	transition: all 0.2s ease;
+}
+.scan-again-container:hover{
+	background-color: #046fa5 !important;
+	transition: all 0.2s ease;
+}
+.scan-again img{
+	width: 80px;
+	padding: 25px 0px;
+	display: block;
+	margin: 0 auto;
+}
+.scan-again p{
+	text-align: center;
+	color: #fff;
+	font-size: 1.5em;
+}
+.table img{
+	height: 20%;
+}
+.list-container{
+	padding: 0px 30px !important;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+.recent-scans{
+	background-color: #fff;
+	border-radius: 10px;
+	padding:20px !important;
+}
+.recent-scans img{
+	margin-bottom: 15px !important;
+	height: 80px;
+	display: block;
+	margin:0 auto;
+}
+.recent-scans p{
+	margin-bottom: 0 !important;
+}
+
+/*End of scan*/
+
+/*Settings*/
+
+.setting{
+	background-color: #0079c1;
+	width: 100%;
+	border-radius: 10px;
+	transition: all 0.2s ease;
+}
+.setting img{
+	padding: 50px;
+	height: 190px;
+	display: block;
+	margin: 0 auto;
+}
+.setting p{
+	font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.setting:hover{
+	background-color: #046fa5;
+	transition: all 0.2s ease;
+	color: #fff;
+}
+a:hover{
+	text-decoration: none !important;
+}
+/*End of settings*/
+/*Update*/
+
+.update-section{
+	margin-top: 20px;
+	padding: 40px !important;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.update-image{
+	padding-bottom: 40px;
+	width: 100%;
+}
+.update-section h1{
+	padding-top: 50px;
+}
+.update-section p{
+	font-weight: 100;
+}
+.btn-update{
+	text-align: center;
+	border-radius: 10px !important;
+	font-size: 1.5em !important;
+	background-color: #0079c1 !important;
+	padding: 10px 30px !important;
+}
+.btn-update:hover{
+	background-color: #046fa5 !important;
+}
+.progress{
+	height: 40px !important;
+	border-radius: 40px !important;
+}
+.progress-bar{
+	border-radius: 40px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#408516+0,007547+100 */
+background: rgb(64,133,22); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(64,133,22,1) 0%, rgba(0,117,71,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(64,133,22,1) 0%,rgba(0,117,71,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(64,133,22,1) 0%,rgba(0,117,71,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#408516', endColorstr='#007547',GradientType=1 ); /* IE6-9 */
+	font-weight: 900;
+	font-size: 1.5em;
+}
+
+.btn-stop{
+	margin: 60px 0px;
+	background-color: #c1272d !important;
+	border: 1px solid #c1272d !important;
+}
+.btn-stop:hover{
+	background-color: #a3232c !important;
+}
